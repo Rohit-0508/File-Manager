@@ -5,7 +5,7 @@ export default function ImageModal({ imageUrl, onClose }) {
 
   return (
     <div className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center transition-all">
-      <div className="relative bg-white rounded-2xl shadow-2xl p-6 max-w-2xl w-full flex flex-col items-center border border-blue-100 animate-fadeIn">
+      <div className="relative bg-white rounded-2xl shadow-2xl p-4 sm:p-6 w-full max-w-2xl mx-4 flex flex-col items-center border border-blue-100 animate-fadeIn">
         <button
           onClick={onClose}
           className="absolute top-3 right-3 text-gray-400 hover:text-red-500 text-3xl font-bold transition-colors"
@@ -20,7 +20,6 @@ export default function ImageModal({ imageUrl, onClose }) {
           style={{ objectFit: "contain" }}
         />
       </div>
-      <p> hello there </p>
     </div>
   );
 }
