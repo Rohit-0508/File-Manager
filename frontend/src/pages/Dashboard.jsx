@@ -5,7 +5,7 @@ import FolderItem from "../components/FolderItem";
 import CreateFolderModal from "../components/CreateFolderModal";
 import { useNavigate, useParams } from "react-router-dom";
 import UploadImage from "../components/UploadImage";
-import ImageModal from "../components/ImageModal";
+import ImageModal from "../components/imageModal";
 import SearchImageModal from "../components/SearchImageModal";
 
 
