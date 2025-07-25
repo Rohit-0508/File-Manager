@@ -20,6 +20,7 @@ export default function ImageModal({ imageUrl, onClose }) {
           style={{ objectFit: "contain" }}
         />
       </div>
+      <p> hello there </p>
     </div>
   );
 }
